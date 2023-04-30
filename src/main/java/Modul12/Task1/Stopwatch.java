@@ -29,26 +29,4 @@ public class Stopwatch extends Thread {
             System.out.println("Минуло 5 секунд");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

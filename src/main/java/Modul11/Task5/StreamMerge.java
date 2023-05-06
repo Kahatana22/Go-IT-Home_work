@@ -11,7 +11,7 @@ public class StreamMerge {
 
     public static void main(String[] args) {
 
-        Stream<String> numbers = Stream.of("1", "2", "3", "4", "5");
+        Stream<String> numbers = Stream.of("1", "2", "3", "4", "5", "6");
         Stream<String> names = Stream.of("Svetlana", "Ivan", "Anna", "Petro", "Mariya");
 
         zip(numbers, names).peek(System.out::println).collect(Collectors.toSet());

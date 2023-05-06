@@ -131,7 +131,7 @@ public class HttpUtil {
     }
 
     static List<Task> readUserTasks(int userId) throws Exception {
-        
+
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(new URI(USERS_URL + "/" + userId + "/todos?completed=false"))
                 .GET()

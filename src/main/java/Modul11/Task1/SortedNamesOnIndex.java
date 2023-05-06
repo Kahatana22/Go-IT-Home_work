@@ -13,7 +13,7 @@ public class SortedNamesOnIndex {
 
         String result = IntStream.range(0, names.size())
                 .filter(i -> i % 2 != 0)
-                .mapToObj(i -> i + "." + names.get(i))
+                .mapToObj(i -> i + ". " + names.get(i))
                 .collect(Collectors.joining(", "));
 
         System.out.println(result);
